@@ -19,3 +19,5 @@ XGBoost : Enhances classification accuracy by using an advanced boosting techniq
 ## Model Training and Validation :
 The XGBoost and Random Forest models are trained on labeled data to classify individuals as normal or CAN-affected based on HRV features. Model performance is assessed using accuracy, confusion matrix, label distribution, and AOC curve analysis to ensure reliable classification. 
 
+## Conclusion :
+Among the models tested, Random Forest exhibit strong classification performance with high recall, ensuring that most CAN cases are correctly identified. XGBoost, while also effective, shows slightly lower sensitivity, which could impact its ability to detect CAN in borderline cases. However, the models significantly outperform traditional diagnostic methods, which are invasive, time-consuming, and require specialized clinical expertise. This approach automates the classification process using ECG-derived features, making it a practical tool for early detection and routine screenings.
